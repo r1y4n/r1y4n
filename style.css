@@ -21,6 +21,7 @@ body {
     width: 100%;
     border-bottom: 2px solid #555555;
     margin: auto;
+    /*overflow: hidden;*/
 }
 
 .heading {
@@ -32,9 +33,45 @@ body {
 }
 
 .navcontainer {
-    margin-top: 20px;
+    margin-top: 10px;
     font-family: "Play";
     font-size: 20px;
+    /*overflow: hidden;*/
+}
+
+ul#tabs {
+    list-style-type: none;
+    margin: 30px 0 0 0;
+    padding: 0 0 5px 0;
+}
+
+ul#tabs li {
+    display: inline;
+}
+
+ul#tabs li a {
+    color: #555555;
+    background-color: #b1b1b1;
+    border: 1px solid #555555;
+    border-bottom: none;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-weight: bold;
+    width: 100px;
+}
+
+ul#tabs li a:hover {
+    background-color: #cfcfcf;
+}
+
+ul#tabs li a.selected {
+    color: #000;
+    background-color: #dfdfdf;
+    padding: 5px 10px 7px;
+}
+
+.content {
+    display: none;
 }
 
 .table {
@@ -66,6 +103,6 @@ body {
 }
 
 .introdiv {
-    font-family: "Play";
-    font-size: 20px;
+    font-family: "Architects Daughter";
+    font-size: 22px;
 }

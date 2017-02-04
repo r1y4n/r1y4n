@@ -22,18 +22,29 @@
                     Mir Riyanul Islam
                 </div>
                 <div class="navcontainer">
-                    About Me | Education | Experience | Research | Contact
+					<ul class="navtab" id="tabs">
+						<li><a href="#home" class="tabbuttons selected">Home</a></li>
+						<li><a href="#home" class="tabbuttons">About</a></li>
+						<li><a href="#home" class="tabbuttons">Education</a></li>
+						<li><a href="#home" class="tabbuttons">Experience</a></li>
+						<li><a href="#home" class="tabbuttons">Research</a></li>
+						<li><a href="#home" class="tabbuttons">Contact</a></li>
+					</ul>
                 </div>
             </div>
-            <div class="content">
-				<div class="table">
-					<div class="row">
-						<div class="col subcontent imagediv">
-							<a class="imga" href="riyan.jpg" target="blank"><img class="profileimage" src="riyan_bw.jpg"></a>
-						</div>
-						<div class="col subcontent introdiv">
-							Hi, there! <br>
-							Call me Riyan.
+            <div class="contenttabs">
+				<div class="content" id="home" style="display: block;">
+					<div class="table">
+						<div class="row">
+							<div class="col subcontent imagediv">
+								<a class="imga" href="riyan.jpg" target="blank"><img class="profileimage" src="riyan_bw.jpg"></a>
+							</div>
+							<div class="col subcontent introdiv">
+								<h3>Hello I'm Riyan</h3>
+								<p>
+									I took teaching as my profession. I enjoy research works and practicing agorithmic problem solving.
+								</p>
+							</div>
 						</div>
 					</div>
 				</div>
