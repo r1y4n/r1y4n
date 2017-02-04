@@ -6,25 +6,66 @@ body {
 
 .base {
     text-align: center;
-    height: calc( 100vh - 30px );
+    min-height: calc( 100vh - 30px );
     margin: 10px;
-    border: 5px solid #555555; 
+    border: 5px solid #555555;
 }
 
 .container {
     margin: auto;
     width: 80%;
+    padding: 10px;
 }
 
 .header {
-    width: 80%;
-    border-bottom: 2px solid #ffffff;
+    width: 100%;
+    border-bottom: 2px solid #555555;
     margin: auto;
 }
 
 .heading {
-    font-family: 'Abril Fatface';
-    font-size: 40px;
+    font-family: "Architects Daughter";
+    font-size: 46px;
+    font-weight: bold;
     margin: 10px;
     text-shadow: 4px 4px 4px #aaaaaa;
+}
+
+.navcontainer {
+    margin-top: 20px;
+    font-family: "Play";
+    font-size: 20px;
+}
+
+.table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 30px;
+    width: 100%;
+}
+.row {
+    display: table-row;
+}
+.col {
+    display: table-cell;
+    padding: 10px;
+    width: 50%;
+    vertical-align: middle;
+}
+
+.imga:focus {
+    outline: none;
+}
+
+.profileimage {
+    height: auto;
+    width: 75%;
+    border-radius: 50%;
+    box-shadow: 10px 10px 10px #aaaaaa;
+    /*border: 2px solid #555555;*/
+}
+
+.introdiv {
+    font-family: "Play";
+    font-size: 20px;
 }
