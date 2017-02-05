@@ -34,7 +34,7 @@ body {
 
 .navcontainer {
     margin-top: 10px;
-    font-family: "Play";
+    font-family: "Architects Daughter";
     font-size: 20px;
     /*overflow: hidden;*/
 }
@@ -70,14 +70,9 @@ ul#tabs li a.selected {
     padding: 5px 10px 7px;
 }
 
-.content {
-    display: none;
-}
-
 .table {
     display: table;
     border-collapse: separate;
-    border-spacing: 30px;
     width: 100%;
 }
 .row {
@@ -105,4 +100,49 @@ ul#tabs li a.selected {
 .introdiv {
     font-family: "Architects Daughter";
     font-size: 22px;
+    text-shadow: 2px 2px 2px #aaaaaa;
+}
+
+div.tabcontent {
+    padding: 20px;
+}
+
+div.tabcontent.hide {
+    display: none;
+}
+
+.footer {
+    text-align: center;
+    vertical-align: bottom;
+}
+
+.socialtable {
+    margin: auto;
+}
+
+.socialtable tr td {
+    padding: 0 10px;
+}
+
+.socialimg {
+    width: 40px;
+    height: auto;
+}
+
+.footnote {
+    font-family: "Roboto";
+    font-size: 12px;
+    margin: 10px 0 0;
+}
+
+.footname {
+    font-weight: bold;
+}
+
+.footimga:focus {
+    outline: none;
+}
+
+.footimga:hover {
+    background: rgba(0, 0, 0, 0.0);
 }
