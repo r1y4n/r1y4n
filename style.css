@@ -105,6 +105,7 @@ ul#tabs li a.selected {
 
 div.tabcontent {
     padding: 20px;
+    font-family: "Architects Daughter";
 }
 
 div.tabcontent.hide {
@@ -114,6 +115,10 @@ div.tabcontent.hide {
 .footer {
     text-align: center;
     vertical-align: bottom;
+    bottom: 25px;
+    left: 0;
+    position: absolute;
+    right: 0;
 }
 
 .socialtable {

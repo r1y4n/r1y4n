@@ -49,19 +49,19 @@
 					</div>
 				</div>
 				<div class="tabcontent hide" id="about">
-					About
+					To be added soon .....
 				</div>
 				<div class="tabcontent hide" id="education">
-					Education
+					To be added soon .....
 				</div>
 				<div class="tabcontent hide" id="work">
-					Work
+					To be added soon .....
 				</div>
 				<div class="tabcontent hide" id="research">
-					Research
+					To be added soon .....
 				</div>
 				<div class="tabcontent hide" id="contact">
-					Contact
+					To be added soon .....
 				</div>
             </div>
             <div class="footer">
