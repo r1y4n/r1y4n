@@ -34,17 +34,15 @@
             </div>
             <div class="contenttabs">
 				<div class="tabcontent" id="home">
-					<div class="table">
-						<div class="row">
-							<div class="col subcontent imagediv">
-								<a class="imga" href="riyan.jpg" target="_blank"><img class="profileimage" src="riyan_bw.jpg"></a>
-							</div>
-							<div class="col subcontent introdiv">
-								<h3>Hello I'm Riyan</h3>
-								<p>
-									I took teaching as my profession. I enjoy research works and practicing agorithmic problem solving.
-								</p>
-							</div>
+					<div class="twocolumns">
+						<div class="col subcontent imagediv">
+							<a class="imga" href="riyan.jpg" target="_blank"><img class="profileimage" src="riyan_bw.jpg"></a>
+						</div>
+						<div class="col subcontent introdiv">
+							<h3>Hello I'm Riyan</h3>
+							<p>
+								I took teaching as my profession. I enjoy research works and practicing algorithmic problem solving.
+							</p>
 						</div>
 					</div>
 				</div>

@@ -15,6 +15,7 @@ body {
     margin: auto;
     width: 80%;
     padding: 10px;
+    position: relative;
 }
 
 .header {
@@ -37,6 +38,10 @@ body {
     font-family: "Architects Daughter";
     font-size: 20px;
     /*overflow: hidden;*/
+}
+
+.contenttabs {
+    height: auto;
 }
 
 ul#tabs {
@@ -70,14 +75,12 @@ ul#tabs li a.selected {
     padding: 5px 10px 7px;
 }
 
-.table {
+.twocolumns {
     display: table;
     border-collapse: separate;
     width: 100%;
 }
-.row {
-    display: table-row;
-}
+
 .col {
     display: table-cell;
     padding: 10px;
@@ -115,10 +118,6 @@ div.tabcontent.hide {
 .footer {
     text-align: center;
     vertical-align: bottom;
-    bottom: 25px;
-    left: 0;
-    position: absolute;
-    right: 0;
 }
 
 .socialtable {
