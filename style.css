@@ -1,30 +1,31 @@
+
 body {
-    min-height: 95vh;
     background-color: #dfdfdf;
     color: #555555;
+    min-height: 95vh;
 }
-
 .base {
-    text-align: center;
-    min-height: calc( 100vh - 30px );
-    margin: 10px;
     border: 5px solid #555555;
+    margin: 10px;
+    min-height: calc(100vh - 30px);
+    text-align: center;
 }
-
 .container {
     margin: auto;
-    width: 80%;
     padding: 10px;
-    position: relative;
+    width: 80%;
+}
+
+.contenttabs {
+    min-height: calc( 100vh - 280px );
+    font-size: 19px;
 }
 
 .header {
-    width: 100%;
     border-bottom: 2px solid #555555;
     margin: auto;
-    /*overflow: hidden;*/
+    width: 100%;
 }
-
 .heading {
     font-family: "Architects Daughter";
     font-size: 46px;
@@ -32,121 +33,184 @@ body {
     margin: 10px;
     text-shadow: 4px 4px 4px #aaaaaa;
 }
-
 .navcontainer {
-    margin-top: 10px;
     font-family: "Architects Daughter";
     font-size: 20px;
-    /*overflow: hidden;*/
+    margin-top: 10px;
 }
-
-.contenttabs {
-    height: auto;
-}
-
 ul#tabs {
     list-style-type: none;
-    margin: 30px 0 0 0;
-    padding: 0 0 5px 0;
+    margin: 30px 0 0;
+    padding: 0 0 5px;
 }
-
 ul#tabs li {
     display: inline;
 }
-
 ul#tabs li a {
-    color: #555555;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
     background-color: #b1b1b1;
-    border: 1px solid #555555;
-    border-bottom: none;
+    border-color: #555555 #555555 -moz-use-text-color;
+    border-image: none;
+    border-style: solid solid none;
+    border-width: 1px 1px medium;
+    color: #555555;
+    font-weight: bold;
     padding: 5px 10px;
     text-decoration: none;
-    font-weight: bold;
     width: 100px;
 }
-
 ul#tabs li a:hover {
     background-color: #cfcfcf;
 }
-
 ul#tabs li a.selected {
-    color: #000;
     background-color: #dfdfdf;
+    color: #000;
     padding: 5px 10px 7px;
 }
-
-.twocolumns {
-    display: table;
+.table {
     border-collapse: separate;
+    display: table;
     width: 100%;
 }
-
+.row {
+    display: table-row;
+}
 .col {
     display: table-cell;
     padding: 10px;
-    width: 50%;
     vertical-align: middle;
+    width: 50%;
 }
-
 .imga:focus {
-    outline: none;
+    outline: medium none;
 }
-
 .profileimage {
-    height: auto;
-    width: 75%;
     border-radius: 50%;
     box-shadow: 10px 10px 10px #aaaaaa;
-    /*border: 2px solid #555555;*/
+    height: auto;
+    width: 75%;
 }
-
 .introdiv {
     font-family: "Architects Daughter";
     font-size: 22px;
     text-shadow: 2px 2px 2px #aaaaaa;
 }
-
 div.tabcontent {
-    padding: 20px;
     font-family: "Architects Daughter";
+    padding: 20px;
 }
-
 div.tabcontent.hide {
     display: none;
 }
+div.myList {
+    margin: auto;
+    padding: 10px;
+    width: 90%;
+}
 
+div.myItem {
+    overflow: hidden;
+    padding: 10px 5px;
+}
+
+div.myItemComp {
+    float: left;
+}
+
+div.myItemDesc {
+    width: 70%;
+    text-align: left;
+    font-size: 19px;
+}
+
+div.myItemLogo {
+    width: 30%;
+    text-align: right;
+}
+
+div.degreePost {
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.imgDegreePostA {
+
+}
+.imgDegreePostA:focus {
+    outline: medium none;
+
+}
+.insLogo {
+    /*border-radius: 50%;*/
+    /*box-shadow: 5px 5px 5px #aaaaaa;*/
+    height: auto;
+    width: 30%;
+}
 .footer {
     text-align: center;
     vertical-align: bottom;
 }
-
 .socialtable {
     margin: auto;
 }
-
 .socialtable tr td {
     padding: 0 10px;
 }
-
 .socialimg {
-    width: 40px;
     height: auto;
+    width: 40px;
 }
+.segments {
+    width: 80%;
+    padding: 10px;
+    margin: auto;
+    font-size: 17px;
+}
+.research {
+    text-align: justify;
+    margin-left: -10px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+.researchType ul {
 
+}
+.typeHead {
+    text-align: left;
+    font-weight: bold;
+}
+.authorMe {
+    font-weight: bold;
+}
+.paperTitleLink {
+    cursor: pointer;
+    color: #555555;
+    text-decoration: underline;
+    font-style: italic;
+    font-weight: bold;
+}
+.contactDiv {
+    width: 70%;
+    margin: 20px auto;
+    text-align: left;
+}
+.oneContact {
+    margin: 20px;
+}
 .footnote {
     font-family: "Roboto";
     font-size: 12px;
     margin: 10px 0 0;
 }
-
 .footname {
     font-weight: bold;
 }
-
 .footimga:focus {
-    outline: none;
+    outline: medium none;
 }
-
 .footimga:hover {
-    background: rgba(0, 0, 0, 0.0);
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
 }

@@ -62,9 +62,16 @@ function showTab() {
             contentDivs[id].className = 'tabcontent hide';
         }
     }
+    sleep(50).then(() => {
+        $("html, body").animate({ scrollTop: 0 }, 500);
+    });
 
     // Stop the browser following the link
     //return false;
+}
+
+function sleep (time) {
+  return new Promise((resolve) => setTimeout(resolve, time));
 }
 
 function getFirstChildWithTagName( element, tagName ) {
